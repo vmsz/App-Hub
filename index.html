@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Hub</title>
+    <script src="https://rawcdn.githack.com/eligrey/Blob.js/9f7eb544f3c2cd6cf8c50dea8b47bd6634411b50/Blob.js"></script>
+    <script src="https://rawcdn.githack.com/eligrey/FileSaver.js/cea522bc41bfadc364837293d0c4dc585a65ac46/dist/FileSaver.js"></script>
+    <script src="./js/apps.js"></script>
+    <script src="./js/main.js"></script>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p>APP HUB</p>
+      </div>
+      <div class="groups">
+        <div class="group essentials">
+          <div class="title">
+            <p>Essentials</p>
+          </div>
+          <div class="apps">
+            <script>
+              printApps(essentials);
+            </script>
+          </div>
+        </div>
+        <div class="group tools">
+          <div class="title">
+            <p>Tools</p>
+          </div>
+          <div class="apps">
+            <script>
+              printApps(tools);
+            </script>
+          </div>
+        </div>
+        <div class="group dev-tools">
+          <div class="title">
+            <p>DEV Tools</p>
+          </div>
+          <div class="apps">
+            <script>
+              printApps(devTools);
+            </script>
+          </div>
+        </div>
+        <div class="group visual">
+          <div class="title">
+            <p>Visual</p>
+          </div>
+          <div class="apps">
+            <script>
+              printApps(visual);
+            </script>
+          </div>
+        </div>
+        <div class="group games">
+          <div class="title">
+            <p>Games</p>
+          </div>
+          <div class="apps">
+            <script>
+              printApps(games);
+            </script>
+          </div>
+        </div>
+        <div class="group chat">
+          <div class="title">
+            <p>Chat</p>
+          </div>
+          <div class="apps">
+            <script>
+              printApps(chat);
+            </script>
+          </div>
+        </div>
+        <div class="group misc">
+          <div class="title">
+            <p>Miscellaneous</p>
+          </div>
+          <div class="apps">
+            <script>
+              printApps(miscellaneous);
+            </script>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <button onclick="download()">Download</button>
+      </div>
+    </div>
+  </body>
+</html>
