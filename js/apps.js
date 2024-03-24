@@ -1,10 +1,17 @@
 let nonGStaticApps = [
+  "Google Chrome",
   "Tweaks",
   "Hardware Tools",
   "MySQL",
   "Ubisoft Connect",
 ];
 let essentials = [
+  (app = {
+    friendlyName: `Google Chrome`,
+    downloadUrl: `https://drive.usercontent.google.com/download?id=1Z30O912ANiinoSY7qYXCfYvVbAklOAez&export=download&confirm=t&uuid=866441f6-a6bb-4bac-b18e-84e95acb7ee7`,
+    iconSrc: `./assets/apps/chrome.png`,
+    fileName: `Chrome Setup.exe`,
+  }),
   (app = {
     friendlyName: `Brave`,
     downloadUrl: `https://drive.usercontent.google.com/download?id=1rDCN8M3nYeLiZhtsYO36q1ZJ4zH04HRH&export=download&authuser=1&confirm=t&uuid=4afea93d-f0d1-40e8-95a9-31a1745e299c&at=APZUnTX0vA8KvGgKHWIbVXyImHWS%3A1705029588848`,
